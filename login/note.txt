@@ -1,0 +1,15 @@
+1 buat db = php-mysql-login
+2 input sql = 
+CREATE TABLE `users` (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  username varchar(255) NOT NULL,
+  email varchar(255) NOT NULL,
+  password varchar(255) NOT NULL,
+  PRIMARY KEY(id)
+);
+ 
+INSERT INTO `users` (`username`, `email`, `password`) VALUES
+('micode', 'micode@gmail.com', '0139a3c5cf42394be982e766c93f5ed0');
+
+cara menjalankan :
+localhost:8080/nama folder di htdocs

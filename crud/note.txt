@@ -1,0 +1,11 @@
+1 buat db = php-mysql-crud
+2 input sql = 
+CREATE TABLE contact (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    nohp VARCHAR(13) NOT NULL
+);
+
+cara menjalankan :
+localhost:8080/nama folder di htdocs
